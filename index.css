@@ -39,6 +39,15 @@ main {
     padding: 20px;
     background-color: hsl(263, 55%, 52%);
     color: white;
+    position: relative;
+}
+
+.big.daniel::after {
+    content: url('./images/bg-pattern-quotation.svg');
+    position: absolute;
+    top: 0;
+    right: 50px;
+    opacity: 0.2;
 }
 
 .big.patrick {
